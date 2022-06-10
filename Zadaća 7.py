@@ -1,6 +1,6 @@
-def reverse(text):
+def rev(string):
     if text == "":
         return text
     else:
-        return text[-1] + reverse(text[:-1])
+        return rev(string[1:])+string[0]
 print(reverse("Kristijan"))
