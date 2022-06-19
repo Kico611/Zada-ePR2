@@ -1,7 +1,7 @@
-def rev(string):
+def reverse(text):
     if text == "":
         return text
     else:
-        return rev(string[1:])+string[0]
+        return text[-1] + reverse(text[:-1])
 
     
