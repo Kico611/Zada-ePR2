@@ -3,4 +3,5 @@ def rev(string):
         return text
     else:
         return rev(string[1:])+string[0]
-print(reverse("Kristijan"))
+
+    
